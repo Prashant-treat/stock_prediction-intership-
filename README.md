@@ -2,7 +2,7 @@
 
 Here's a code that demonstrates how to use LSTM (Long Short-Term Memory) to predict stock prices. I'll use a generic structure for this, and you can replace the stock data with any company stock you'd like to analyze.
 
-<p>Explanation:</p>
+<h3>Explanation:</h3>
 Loading Data: Replace your_stock_data.csv with the path to the CSV file containing stock data. The CSV should have at least a Close column.
 Preprocessing: Data is normalized using MinMaxScaler to scale values between 0 and 1, making it easier for the LSTM model to process.
 Time Series Data: We create sequences of 60-day closing prices to predict the next day’s price.
